@@ -155,3 +155,6 @@ Saved folders and tags stay in `shared.json` under `hs.favorites` and `hs.sessio
 推到 GitHub 后给仓库加 topic **`herdr-layout`**，一小时内会出现在
 [herdr.dev/layouts](https://herdr.dev/layouts)。Add the topic `herdr-layout` to the repository and
 it shows up there within the hour. `RECIPE.md` is the brief another agent builds this from.
+
+## 友情链接
+[LINUX DO](https://linux.do/) —— 真诚分享、友好讨论的技术社区，本项目的交流与反馈也发布于此
