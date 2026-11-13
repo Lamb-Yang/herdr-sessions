@@ -1,9 +1,14 @@
 # Herdr Sessions
 
-A working layout for people who drive coding agents: a 268px sidebar with spaces and agents, a
-42px tab bar with four panel buttons, the terminal in the middle, and one 368px right panel that
-stacks **Files**, **Changes**, **Sessions** and **Favorites** — collapsed by default, opened from
-the tab bar. Everything follows the person's theme tokens, so it looks native in light and dark.
+A working layout for people who drive coding agents. Core features:
+
+- Spaces & tabs on the left, terminal in the middle, one right-hand panel for **Files**, **Changes**,
+  **Sessions** and **Favorites** — collapsed by default, opened from the tab bar
+- Resume any coding-agent session (pi / Claude Code / opencode) in one click, right in its original folder
+- Review git diffs and commit without leaving the terminal — an **AI** button writes the commit message for you
+- Tag sessions, filter with `#tag`, pin favorite folders for one-click switching
+
+Everything follows the person's theme tokens, so it looks native in light and dark.
 
 ![Herdr Sessions](preview.png)
 

@@ -1,13 +1,20 @@
 # Herdr Sessions
 
-A [Herdr](https://herdr.dev) layout for people who drive coding agents all day: your spaces and
-tabs on the left, the terminal in the middle, and a right-hand panel with **Files**, **Changes**,
-**Sessions** and **Favorites**.
+A [Herdr](https://herdr.dev) layout for people who drive coding agents all day.
+
+- Spaces & tabs on the left, terminal in the middle, one right-hand panel for **Files / Changes / Sessions / Favorites**
+- Resume any coding-agent session (pi / Claude Code / opencode) in one click, right in its original folder
+- Review git diffs and commit without leaving the terminal — an **AI** button writes the commit message for you
+- Tag your sessions, filter with `#tag`, and pin favorite folders for one-click switching
 
 ![Herdr Sessions](preview.png)
 
-一个给 [Herdr](https://herdr.dev) 用的布局：左边是空间和标签，中间是终端，右侧一个面板，装
-**文件 / 改动 / 会话 / 收藏** 四件事。
+一个给 [Herdr](https://herdr.dev) 用的布局，给整天开着编程 agent 干活的人：
+
+- 左边空间和标签，中间终端，右边一个面板装 **文件 / 改动 / 会话 / 收藏** 四件事
+- 会话一条一点就恢复（pi / Claude Code / opencode 都收），就在它原来的目录里
+- 不切窗口看 diff、填提交信息直接提交 —— 还有 **AI** 按钮帮你写提交信息
+- 会话可以打标签，搜 `#标签` 一秒过滤；常用目录加收藏，一点就切过去
 
 ---
 
@@ -90,10 +97,17 @@ bash uninstall.sh
 
 ### What it is
 
-A layout for [Herdr](https://herdr.dev). Left sidebar: spaces (rename, colour, new) and agents.
-Top bar: your tabs plus four panel buttons and the window buttons. Middle: the terminal.
-Right: one 368px panel holding **Files**, **Changes**, **Sessions** and **Favorites**, stacked and
-**collapsed by default** — click a button in the top bar to open it.
+A layout for [Herdr](https://herdr.dev).
+
+| Area | What's in it |
+| --- | --- |
+| Left sidebar, 268px | Spaces (rename, colour, new), agent list, status at the bottom |
+| Top bar, 42px | Your tabs, the four panel buttons, the window buttons |
+| Middle | The terminal. Title bar and window buttons have their spots reserved; nothing gets squeezed when narrow |
+| Right panel, 368px | Four panels stacked, switch from the top bar; **collapsed by default** |
+| Bottom, 28px | Status bar |
+
+The four right-hand panels:
 
 - **Files** — file tree of the current project, click a file to preview it. Hovering a folder row
   reveals three buttons: ⭐ save it to Favorites, `>_` `cd` into it in the focused terminal,
